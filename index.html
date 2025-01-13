@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Git কী?</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
     <link rel="stylesheet" href="style/basic.css">
 </head>
 <body>
@@ -24,5 +30,54 @@
          
          ফিরে যেতে পারে।</p>
         </div>
-</body>
+        <header>
+            
+        </header>
+        <main>
+            <section>
+                <h2>Please fill up the form</h2>
+                <form> 
+                    <label for="name"> Your Name:
+                        <input id="name" type="text" 
+                        placeholder="Your Name" >
+                    </label>
+                    <label for="email"> Your Email: 
+                        <input type="email"
+                        id="Email"
+                        placeholder="Your Email">
+                    </label>
+
+                    <fieldset>
+                        <legend>problem of uses github</legend>
+                        <label for="don't know he uses of Git "> 
+                            <input name="problem" type="radio" id="111">Don't know the uses of Git
+                        </label>
+                        <label for="Feeling nervous">
+                            <input name="problem" type="radio" id="222"> Feeling nervous
+                        </label>
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend>sugeted sollution tool </legend>
+                        <label for="sollution">
+                           <input type="radio" name="" id="12">Chatgpt
+                        </label>
+                        <label for="sollution">
+                            <input type="radio" name="" id="22">W3 school
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>feel free to write problem</legend>
+                        <textarea name="" id="" rows="5" cols="30"
+                         placeholder="Write hear "></textarea>
+                    </fieldset>
+                    <input type="reset">
+                    <input type="submit">
+
+                </form>
+            </section>
+
+        </main>
+    </body>
 </html>
