@@ -3,170 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Git কী?</title>
-    <style>
-        label{
-            display: block;
-            margin-bottom: 10px;
-        }
-        td,th{
-            border: 1px solid; 
-            padding: 5px 10px;
-        }
-        table{
-            border-collapse: collapse;
-        }
-
-        
-
-    </style>
-    <link rel="stylesheet" href="style/basic.css">
-    <link rel="stylesheet" href="style/nav.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/style2.css">
 </head>
 <body>
-    <div>
-    <h1>Git কী?</h1>
-    <p>Git একটি ওপেন-সোর্স ভার্সন কন্ট্রোল সিস্টেম (VCS),
-         যা ডেভেলপারদের একটি প্রজেক্টের সোর্স কোড ট্র্যাক
-          করতে, সংস্করণ সংরক্ষণ করতে এবং একাধিক 
-          ডেভেলপারের সাথে সহযোগিতায় কাজ করতে 
-          সাহায্য করে। এটি মূলত সফটওয়্যার ডেভেলপমেন্টের
-          
-          জন্য ব্যবহৃত হয়, তবে অন্যান্য ফাইল বা ডকুমেন্ট 
-          পরিচালনায়ও কার্যকর।
+    <section>
+      <div class="banner">
+       <div class="content">
+        <h4 >Bangladesh 2.0</h4>
+        <h1>
+         Idea, innovation, <br>
+        vision and challenges in <br>
+        New Bangladesh.
+        </h1>
+        <button class="explore-btn">Explore New Bangladesh</button>
+        </div>
+        <div class="image">
+        <img src="assets/hero.png"   alt="Bangladesh Banner">
+       </div>
+      </div>
+    </section>
 
-        Git তৈরির পেছনে মূল উদ্দেশ্য হলো পরিবর্তন ট্র্যাকিং,
-         যেখানে ডেভেলপাররা ফাইলের পরিবর্তনের ইতিহাস 
-         সংরক্ষণ করতে পারে এবং প্রয়োজনে আগের সংস্করণে 
-         
-         ফিরে যেতে পারে।</p>
+  <section class="vision-section">
+    <h2 class="section-title">The Vision of Future</h2>
+    <p class="section-description">
+      Bangladesh 2.0 aims to redefine the nation's trajectory by embracing cutting-edge technology, promoting inclusive growth, and ensuring sustainability. With initiatives in renewable energy, digital transformation, and robust infrastructure, the country is set to become a global model of development.
+    </p>
+    <div class="vision-cards">
+      <div class="vision-card" style="background-color: #e7effe;">
+        <img src="icon-digital.png" alt="Digital Transformation" class="vision-icon">
+        <h3 class="vision-card-title">Digital Transformation</h3>
+        <p class="vision-card-description">
+          Creating a nationwide digital ecosystem to enhance connectivity and access to services for all citizens.
+        </p>
+        <button class="learn-more-btn" style="background-color: #3366ff;">Learn More</button>
+      </div>
+      <div class="vision-card" style="background-color: #e8f8ec;">
+        <img src="icon-green.png" alt="Green Energy" class="vision-icon">
+        <h3 class="vision-card-title">Green Energy</h3>
+        <p class="vision-card-description">
+          Investments in solar and wind energy to ensure a sustainable and eco-friendly future.
+        </p>
+        <button class="learn-more-btn" style="background-color: #28a745;">Learn More</button>
+      </div>
+      <div class="vision-card" style="background-color: #fff4e3;">
+        <img src="icon-infrastructure.png" alt="Modern Infrastructure" class="vision-icon">
+        <h3 class="vision-card-title">Modern Infrastructure</h3>
+        <p class="vision-card-description">
+          Building state-of-the-art infrastructure to support economic growth and global competitiveness.
+        </p>
+        <button class="learn-more-btn" style="background-color: #ffa500;">Learn More</button>
+      </div>
     </div>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="video.html">video</a>
-                        <ul class="dropdown">
-                            <li><a href="video.html">video</a></li>
-                            <li><a href="photo.html">photo</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="photo.html">photo</a>
-                        <ul class="dropdown">
-                            <li><a href="video.html">video</a></li>
-                            <li><a href="photo.html">photo</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <section>
-                <h2>Please fill up the form</h2>
-                <form> 
-                    <label for="name"> Your Name:
-                        <input id="name" type="text" 
-                        placeholder="Your Name" >
-                    </label>
-                    <label for="email"> Your Email: 
-                        <input type="email"
-                        id="Email"
-                        placeholder="Your Email">
-                    </label>
-
-                    <fieldset>
-                        <legend>problem of uses github</legend>
-                        <label for="don't know he uses of Git "> 
-                            <input name="problem" type="radio" id="111">Don't know the uses of Git
-                        </label>
-                        <label for="Feeling nervous">
-                            <input name="problem" type="radio" id="222"> Feeling nervous
-                        </label>
-                    </fieldset>
-                    
-                    <fieldset>
-                        <legend>sugeted sollution tool </legend>
-                        <label for="sollution">
-                           <input type="radio" name="" id="12">Chatgpt
-                        </label>
-                        <label for="sollution">
-                            <input type="radio" name="" id="22">W3 school
-                        </label>
-                    </fieldset>
-
-                    <fieldset>
-                        <legend>feel free to write problem</legend>
-                        <textarea name="" id="" rows="5" cols="30"
-                         placeholder="Write hear "></textarea>
-                    </fieldset>
-                    <input type="reset">
-                    <input type="submit">
-
-                </form>
-            </section>
-            <main>
-                <h2>HTML Table</h2>
-            <table>
-                <caption>practie table </caption>
-                <thead>
-                    <tr>
-                        <th>No</th>
-                        <th>Full Name</th>
-                        <th>Company</th>
-                        <th>Income</th>
-                    </tr>
-
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>Bill Gates</td>
-                        <td>Microsoft</td>
-                        <td>$1000</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Steve Jobs</td>
-                        <td>Apple</td>
-                        <td>$2000</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Muntasir Jehan</td>
-                        <td>Jehan</td>
-                        <td>$10000</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>Bill Gates</td>
-                        <td>Microsoft</td>
-                        <td>$1000</td>
-                    </tr>
-
-                    <tr>
-                        <td>5</td>
-                        <td>Jonh Jones</td>
-                        <td>Heavyweight</td>
-                        <td>$1000</td>
-                    </tr>
-
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <td colspan="44">Kmn laglo comment kore janben </td>
-                    </tr>
-
-                </tfoot>
-            </table>
-            <ul>
-                <li>Table: table</li>
-                <li>table head: thead</li>
-                <li>table body: tbody</li>
-                <li>table footer: tfoot</li>
-                <li>table row: tr</li>
-                <li>table data or table cell: td</li>
-            </ul>
-            </main>
-
-        </main>
-    </body>
+  </section>
+</body>
 </html>
