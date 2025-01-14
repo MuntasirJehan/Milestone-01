@@ -1,0 +1,51 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+  }
+  
+  .testimonial {
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .quote p {
+    font-size: 1rem;
+    font-style: italic;
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    position: relative;
+  }
+  
+  .quote p:before {
+    content: "“";
+    font-size: 3rem;
+    color: #ccc;
+    position: absolute;
+    top: -20px;
+    left: -10px;
+  }
+  
+  .author h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .author p {
+    font-size: 0.9rem;
+    color: #777;
+    margin: 5px 0 0;
+  }
+  
