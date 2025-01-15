@@ -2,7 +2,10 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #e0f7ea;
+    background-color: #ffffff;
+  }
+  .first{
+    margin: 4%;
   }
   
   .banner {
@@ -51,4 +54,3 @@ body {
     height: auto;
     border-radius: 5px;
   }
-  

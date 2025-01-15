@@ -1,11 +1,8 @@
-/* General Reset */
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+
+  .vision{
+    text-align: left;
+    margin-left: 30px;
   }
-  
-  /* Section Styling */
   .vision-section {
     text-align: center;
     padding: 50px 20px;
@@ -15,13 +12,12 @@ body {
   .section-title {
     font-size: 2rem;
     font-weight: bold;
-    margin-bottom: 10px;
   }
   
+
   .section-description {
     color: #555;
-    max-width: 700px;
-    margin: 0 auto 40px;
+    max: 700px;
     font-size: 1rem;
   }
   
